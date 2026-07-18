@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>India Trade &amp; Macro Data Analysis</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page-bg:#eef1ea; --surface:#fcfcfa; --ink:#14180f; --ink-2:#4f5348; --ink-muted:#82867a;
+    --rule:#d7dace; --rule-strong:#c3c7b8; --accent:#1f5f5b; --accent-soft:#dbe9e6;
+    --font-display:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    --font-body:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --font-mono:"IBM Plex Mono","SF Mono",Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { color-scheme: dark; --page-bg:#12151a; --surface:#1a1e21; --ink:#f2f1ea; --ink-2:#c1c4b7; --ink-muted:#8b8f83; --rule:#2a2e28; --rule-strong:#383c33; --accent:#58bdb5; --accent-soft:#1d3634; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page-bg); color: var(--ink); font-family: var(--font-body); }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 48px 20px 64px; display: flex; flex-direction: column; gap: 28px; }
+  .eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-family: var(--font-display); font-weight: 500; font-size: clamp(26px,3.4vw,36px); margin: 6px 0 0; }
+  p.dek { font-size: 14.5px; color: var(--ink-2); line-height: 1.6; max-width: 78ch; }
+  a { color: var(--accent); }
+  .card-list { display: flex; flex-direction: column; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .card { background: var(--surface); padding: 16px 20px; display: flex; flex-direction: column; gap: 4px; }
+  .card a.title { font-size: 15px; font-weight: 600; text-decoration: none; color: var(--ink); }
+  .card a.title:hover { color: var(--accent); }
+  .card .sub { font-size: 12.5px; color: var(--ink-muted); }
+  .card .links { font-family: var(--font-mono); font-size: 11.5px; margin-top: 2px; }
+  .quick { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .quick a { background: var(--surface); padding: 14px 18px; text-decoration: none; color: var(--ink); font-size: 13.5px; }
+  .quick a:hover { color: var(--accent); }
+  footer { font-family: var(--font-mono); font-size: 10.5px; color: var(--ink-muted); text-align: center; padding-top: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <div class="eyebrow">MoSPI / RBI / TRADESTAT — Descriptive Data Analysis</div>
+    <h1>India Trade &amp; Macro Data Analysis</h1>
+    <p class="dek">Every chart and dataset in this repo, served directly via GitHub Pages. Companion repo: <a href="https://herrrickshaw.github.io/india-trade-sector-policy-recommendations/">India Trade — Sector &amp; Policy Recommendations</a>.</p>
+  </div>
+
+  <div class="quick">
+    <a href="reports/FY2025-26_sample_report.html">FY2025-26 Sample Report (HTML)</a>
+    <a href="reports/FY2025-26_sample_report.pdf">FY2025-26 Sample Report (PDF)</a>
+    <a href="https://colab.research.google.com/github/herrrickshaw/india-trade-data-analysis/blob/main/notebooks/mospi_live_reference.ipynb">Open live-reference notebook in Colab</a>
+    <a href="https://colab.research.google.com/github/herrrickshaw/india-trade-data-analysis/blob/main/notebooks/repo_verification.ipynb">Open repo-verification notebook in Colab</a>
+  </div>
+
+  <div class="card-list">
+    <div class="card">
+      <a class="title" href="charts/cpi_wpi_state_trends.html">State-wise CPI vs. national WPI trends</a>
+      <div class="sub">Combined-sector CPI across 14 major states vs. All-India, alongside national WPI, Jan 2025–Jun 2026.</div>
+      <div class="links"><a href="data/cpi_statewise_trend_2025-01_to_2026-06.json">data</a> · <a href="data/wpi_national_trend_2025-01_to_2026-04.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/cpi_india_heatmap.html">CPI inflation heatmap (choropleth)</a>
+      <div class="sub">India shaded by June 2026 CPI year-on-year inflation, state by state.</div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/rbi_forex_reserves_trend.html">RBI forex reserves + currency trend</a>
+      <div class="sub">Forex reserves Jan 2015–present (RBI-scraped extension past the MoSPI connector's June 2025 freeze) and USD/INR since 2015.</div>
+      <div class="links"><a href="data/rbi_forex_reserves_2015-01_to_2025-06.json">data</a> · <a href="data/rbi_usd_inr_exchange_rate_2015-01_to_2026-07.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/real_exchange_rate_and_currency_policy.html">Effective buying power &amp; the China currency-manipulation comparison</a>
+      <div class="sub">Nominal vs. PPP-adjusted rupee depreciation, checked against the US Treasury's currency-manipulator criteria.</div>
+      <div class="links"><a href="data/rupee_real_exchange_rate_2015_to_2026.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/trade_balance_hsn_analysis.html">Trade balance — is India an export-surplus country?</a>
+      <div class="sub">Merchandise + services trade balance, FY2018-19 through FY2025-26. Verdict: no, in goods or combined.</div>
+      <div class="links"><a href="data/tradestat_hsn_export_import_2018-19_to_2025-26.json">data</a> · <a href="data/services_trade_and_overall_balance_2015-16_to_2024-25.json">data</a> · <a href="data/trade_data_cross_validation_2026-07-18.json">validation</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/hsn_historical_trends.html">HSN-wise historical trends — which imports are growing fastest?</a>
+      <div class="sub">Top-12 import/export chapters, 8-year trajectories and CAGR ranking.</div>
+      <div class="links"><a href="data/hsn_historical_trends_2018-19_to_2025-26.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/fertiliser_fuel_price_transmission.html">Imported fertiliser &amp; fuel prices → diesel → CPI/WPI</a>
+      <div class="sub">Import-price pass-through, 2012–2026, tested against five published studies.</div>
+      <div class="links"><a href="data/fertiliser_fuel_price_transmission_2012_to_2026.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/gdp_growth_trend.html">GDP growth trend, with revision history</a>
+      <div class="sub">Real GDP growth FY2012-13 through FY2025-26, first-advance-estimate vs. latest revision.</div>
+      <div class="links"><a href="data/gdp_growth_rate_2012-13_to_2025-26.json">data</a></div>
+    </div>
+    <div class="card">
+      <a class="title" href="charts/five_year_trade_currency_synthesis.html">Five-year synthesis: trade, currency &amp; policy, FY2021-22 to FY2025-26</a>
+      <div class="sub">The capstone: every thread above re-cut to one consistent five-year window.</div>
+      <div class="links"><a href="data/five_year_trade_currency_synthesis_2026-07-18.json">data</a></div>
+    </div>
+  </div>
+
+  <footer>herrrickshaw/india-trade-data-analysis — served via GitHub Pages, no build step, HTML/JSON directly from the repo</footer>
+</div>
+</body>
+</html>
