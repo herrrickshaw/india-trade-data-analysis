@@ -4,6 +4,8 @@ A record of accessing India's official statistics via the **MoSPI (Ministry of S
 
 **This is the descriptive half of a two-repo split.** The prescriptive companion — sector-by-sector and country-by-country recommendations, PLI scheme coverage checks, and policy-gap analysis — lives in [`india-trade-sector-policy-recommendations`](https://github.com/herrrickshaw/india-trade-sector-policy-recommendations). Both repos were originally one (`mospi-dataset-analysis`); they were split so the "what does the data show" analysis and the "what should be done about it" recommendations could be published, versioned, and read independently.
 
+**Live site**: [herrrickshaw.github.io/india-trade-data-analysis](https://herrrickshaw.github.io/india-trade-data-analysis/) — every chart and JSON dataset below served directly via GitHub Pages, no build step.
+
 This repo reads chronologically — each section was added as a new question came up, often building on the one before it. The **[five-year synthesis](#five-year-synthesis-trade-currency--policy-fy2021-22-to-fy2025-26)** near the end re-cuts every thread below to one consistent window if you want the short version first.
 
 **Quick references, outside the chronological bulletins below:**
