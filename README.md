@@ -10,6 +10,7 @@ This repo reads chronologically — each section was added as a new question cam
 
 **Quick references, outside the chronological bulletins below:**
 - [`reports/FY2025-26_sample_report.html`](reports/FY2025-26_sample_report.html) / [`reports/FY2025-26_sample_report.pdf`](reports/FY2025-26_sample_report.pdf) — a standalone FY2025-26 snapshot: every figure re-derived from the datasets below, standardised to **US$ Million throughout** (PLI ₹ crore figures each converted at that scheme's own elapsed-period average rate — not one blanket rate), with a dedicated cross-source consistency-check log.
+- [`charts/five_year_trade_currency_synthesis.html`](charts/five_year_trade_currency_synthesis.html) / [`charts/five_year_trade_currency_synthesis.pdf`](charts/five_year_trade_currency_synthesis.pdf) — the five-year capstone (see below), also published as a standalone PDF.
 - [`notebooks/mospi_live_reference.ipynb`](notebooks/mospi_live_reference.ipynb) — open in Colab — loads every dataset in this repo live from GitHub (plus the companion repo's PLI/policy datasets), two working live-scrape cells (RBI reserves, live USD/INR), and a tour of Python visualization toolkits (Seaborn, Plotly, Altair, Folium, missingno) alongside matplotlib.
 
 **Contents:** [MoSPI dataset catalogue](#what-mospi-provides) · [Access workflow](#access-workflow) · [Session findings](#session-findings-as-of-2026-07-18) · [State CPI vs. WPI](#state-wise-cpi-vs-national-wpi-trends) · [CPI heatmap](#cpi-inflation-heatmap-choropleth) · [Forex &amp; currency](#rbi-foreign-exchange-reserves--currency-trend) · [Real exchange rate &amp; China comparison](#effective-buying-power--the-china-currency-manipulation-comparison) · [Trade balance](#trade-balance--is-india-an-export-surplus-country) · [HSN growth trends](#hsn-wise-historical-trends--which-imports-are-growing-fastest) · [Fertiliser/fuel → inflation](#imported-fertiliser--fuel-prices--diesel--cpiwpi) · [GDP growth](#gdp-growth-trend-with-revision-history) · [Five-year synthesis](#five-year-synthesis-trade-currency--policy-fy2021-22-to-fy2025-26) · [Known quirks](#known-quirks--caveats)
@@ -52,6 +53,10 @@ This repo currently documents that workflow as exercised through the MoSPI MCP c
 
 ## Session findings (as of 2026-07-18)
 
+Every headline insight in this repo, pulled up to one place and ordered to match the sections below. Each linked section still carries its own full narrative, methodology, and **underlying data source** — this index is the "insights" half; the sections below hold both the fuller description *and* their data-source citation, kept separate from the summary here.
+
+**Raw MoSPI connector snapshot** (the very first pull this session, not a derived insight):
+
 | Series | Latest period returned | Value |
 |---|---|---|
 | CPI (base 2024, All India, Combined) | June 2026 | Index 107.00, **+4.38% YoY** (rural 4.74%, urban 3.92%; food & beverages +5.05%) |
@@ -60,6 +65,17 @@ This repo currently documents that workflow as exercised through the MoSPI MCP c
 | RBI Foreign Exchange Reserves (Total, US$) | June 2025 | $698.1bn |
 
 Raw responses: [`data/mospi_snapshot_2026-07-18.json`](data/mospi_snapshot_2026-07-18.json).
+
+**All derived insights, by section:**
+
+- **[State-wise CPI vs. WPI](#state-wise-cpi-vs-national-wpi-trends)** — Telangana runs hottest at +6.36% YoY, NCT of Delhi coolest at +2.96%, against an All-India print of +4.38%. WPI broke a year of near-flat readings (~154–158) with a sharp run to 167 in April 2026.
+- **[RBI forex reserves + currency trend](#rbi-foreign-exchange-reserves--currency-trend)** — Reserves hit a new all-time high of $728.5bn (27 Feb 2026), slid to a true trough of $666.9bn (26 Jun 2026, -8.5% peak-to-trough), then partially recovered to $675.2bn (10 Jul 2026). The rupee depreciated ~38% over the decade, then accelerated to +11.9% in the last 12 months, reaching ₹96.37 on 17 Jul 2026.
+- **[Effective buying power & the China comparison](#effective-buying-power--the-china-currency-manipulation-comparison)** — Nominal rupee depreciation since Jan 2015 is +54.9%, but the real (PPP-adjusted) rate is +37.6% — effective buying power for dollar-priced goods down ~27%. Unlike China's 2019 currency-manipulator designation, RBI has been *selling* reserves to defend the rupee, not buying to suppress it.
+- **[Trade balance](#trade-balance--is-india-an-export-surplus-country)** — No: India ran a merchandise deficit in every one of 8 fiscal years on record, widening from -$184.0bn (FY2018-19) to -$334.3bn (FY2025-26). The services surplus more than doubled ($82.1bn → $188.9bn), cutting the FY2024-25 overall gap to just -$94.6bn.
+- **[HSN-wise historical trends](#hsn-wise-historical-trends--which-imports-are-growing-fastest)** — Mineral fuels (HS27) is the largest single import ($203.4bn) but grew only +21.2% over 8 years. Fertilisers (+118.9%), electrical machinery (+101.5%), and edible oils (+97.9%) are the fastest-growing imports. Electrical machinery exports quadrupled (+324.1%); gems & jewellery (HS71) is the only top-12 chapter shrinking, on either side (-29.9%).
+- **[Imported fertiliser & fuel prices → CPI/WPI](#imported-fertiliser--fuel-prices--diesel--cpiwpi)** — Diesel passes through to WPI almost mechanically (r=0.92, +79.0% since April 2012); fertiliser subsidy holds Urea to just +13.8% despite the 2021-23 global price shock. CPI oils & fats swung from -18.17% to +21.24% year-on-year in the space of two years.
+- **[GDP growth trend](#gdp-growth-trend-with-revision-history)** — FY2025-26 opens at +7% real growth (First Advance Estimate, expect revision). The COVID-19 year was revised from an initial -8% up to -6%; typical revisions run about ±0.75 percentage points, as much as 2pp.
+- **[Five-year synthesis](#five-year-synthesis-trade-currency--policy-fy2021-22-to-fy2025-26)** — Imports grew nearly six times faster than exports over five years (+26.6% vs. +4.7%, a 5.7:1 ratio). A services surplus — not five years of PLI policy — absorbed roughly 88% of the widened goods deficit. China's import concentration and the USA's export concentration haven't meaningfully shifted despite scaled-up PLI outlays.
 
 ## State-wise CPI vs. national WPI trends
 
@@ -143,7 +159,7 @@ Underlying data: [`data/gdp_growth_rate_2012-13_to_2025-26.json`](data/gdp_growt
 
 ## Five-year synthesis: trade, currency &amp; policy, FY2021-22 to FY2025-26
 
-[`charts/five_year_trade_currency_synthesis.html`](charts/five_year_trade_currency_synthesis.html) — open in a browser — a capstone that re-cuts every dataset already collected above to one consistent five-year window, rather than the mix of 8-year (HSN), 14-year (WPI/CPI), and decade-plus (currency/reserves) windows used elsewhere in this repo. No new data collection — every figure is re-derived from the JSON files already cited above (plus the companion repo's country-priority datasets for the closing verdict).
+[`charts/five_year_trade_currency_synthesis.html`](charts/five_year_trade_currency_synthesis.html) (open in a browser) / [`charts/five_year_trade_currency_synthesis.pdf`](charts/five_year_trade_currency_synthesis.pdf) (standalone PDF) — a capstone that re-cuts every dataset already collected above to one consistent five-year window, rather than the mix of 8-year (HSN), 14-year (WPI/CPI), and decade-plus (currency/reserves) windows used elsewhere in this repo. No new data collection — every figure is re-derived from the JSON files already cited above (plus the companion repo's country-priority datasets for the closing verdict).
 
 **Headline: imports grew nearly six times faster than exports, and a services surplus — not five years of PLI policy — absorbed most of the difference.** Imports rose **+26.6%** ($613.1bn → $776.0bn, FY2021-22 → FY2025-26) against export growth of just **+4.7%** ($422.0bn → $441.7bn) — a growth ratio of roughly **5.7:1**. Over the same span the rupee's FY-average rate slid **+13.7%** (74.50 → 84.68 through FY2024-25) and has since accelerated to a **96.37** spot rate by mid-July 2026. The goods deficit widened by **$92.5bn** (-$191.0bn → -$283.5bn, FY2021-22 → FY2024-25), but the services surplus very nearly doubled (**+75.6%**, $107.6bn → $188.9bn) — covering an estimated **88% of that extra goods shortfall** and holding the overall gap's five-year growth to just $11.1bn. GDP growth ran 10%→8%→9%→6%→7% across the window (softest in FY2024-25); forex reserves grew 18.7% start-of-FY-to-latest, slower than the import bill.
 
