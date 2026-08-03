@@ -139,6 +139,14 @@ Official validation note: the Commerce Ministry's own **TIA Portal user manual**
 
 Underlying data: [`data/hsn_historical_trends_2018-19_to_2025-26.json`](https://herrrickshaw.github.io/india-trade-data-analysis/data/hsn_historical_trends_2018-19_to_2025-26.json).
 
+## Bare-metal imports at 4-digit HS — splitting bullion out of chapter 71
+
+The 2-digit chapter data above cannot separate gold from diamonds (both sit in HS71) or the copper value chain from its chapter aggregates — so this dataset pulls the key bare-metal 4-digit codes from the same TRADESTAT source, with full partner-country breakdowns, for FY2024-25 vs FY2025-26 (provisional): gold 7108, silver 7106, platinum-group 7110, diamonds 7102 (for chapter-71 context), the copper complex (ores 2603, blister 7402, refined cathodes 7403, scrap 7404), aluminium (unwrought 7601, scrap 7602), and unwrought nickel 7502 / lead 7801 / zinc 7901 / tin 8001.
+
+**Headline: bare gold alone is 9.3% of India's entire FY2025-26 import bill** ($72.0bn, +24% YoY), second only to crude — with Switzerland ($20.1bn) and UAE ($15.3bn, the CEPA concessional channel) supplying half of it. Three patterns stand out: (1) **the platinum-group line collapsed -92%** ($5.4bn → $0.4bn) after customs closed the "platinum alloy" duty-arbitrage route, and that flow visibly snapped back into 7108 — the same bullion-arbitrage migration this project separately caught in gold compounds (HSN 28433000); (2) **sourcing is shifting to doré from mining countries** for domestic refining (Ghana +449%, Bolivia +245%, Brazil +538% YoY); (3) **silver imports tripled** to $12.1bn on the price rally plus solar-PV industrial demand. On the industrial side, the copper complex reached $14.7bn with concentrate (+54% YoY) growing fastest — new domestic smelting capacity substituting cathode imports with ore imports, i.e. import dependency moving down the value chain rather than shrinking.
+
+Underlying data: [`data/metals_hsn4_import_2024-25_to_2025-26.json`](https://herrrickshaw.github.io/india-trade-data-analysis/data/metals_hsn4_import_2024-25_to_2025-26.json).
+
 ## Imported fertiliser & fuel prices → diesel → CPI/WPI
 
 [`charts/fertiliser_fuel_price_transmission.html`](https://herrrickshaw.github.io/india-trade-data-analysis/charts/fertiliser_fuel_price_transmission.html) — open in a browser — correlates the MoSPI connector's own WPI item-level series for diesel (HSD) and fertilisers (Urea, DAP) against WPI and CPI headline/food inflation, 2012–2026, to test the import-price pass-through described in five published studies (cited in full inside the bulletin: James Hamilton's IJCB framing paper, Bhattacharya & Gupta's NIPFP food-inflation SVAR, Mishra & Roy's India Policy Forum paper, a JETIR 2025 survey, and an MBA thesis on India's import composition).
