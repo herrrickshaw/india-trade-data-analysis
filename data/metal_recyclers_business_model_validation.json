@@ -21,6 +21,13 @@
  },
  "companies": {
   "listed": {
+   "JAINREC.BO": {
+    "name": "Jain Resource Recycling Limited",
+    "hq": "Chennai, Tamil Nadu",
+    "model": "Jain Metal Group's recycling arm — non-ferrous scrap into LME-registered lead, plus copper and aluminium products. IPO Rs.1,250 cr Sept 2025, listed NSE+BSE 1 Oct 2025 at 14% premium",
+    "ttm_financials": {"market_cap_inr": 120900820992, "revenue_inr": 95431131136, "revenue_growth_yoy": 0.764, "operating_margin": 0.03399, "net_margin": 0.03391, "roe": 0.28672, "trailing_pe": 33.75, "price_to_book": 7.92, "price_inr": 350.35},
+    "validation": "CONFIRMED, and now the LARGEST listed recycler by revenue (Rs.9,543 cr TTM, +76% YoY). The purest expression of the spread thesis: 3.4% operating margin turned into a 29% ROE via sheer asset turnover. Correction to earlier note: previously recorded here as unlisted — listed Oct 2025."
+   },
    "GRAVITA.NS": {
     "name": "Gravita India Limited",
     "hq": "Rajasthan",
@@ -50,10 +57,43 @@
     "validation": "PARTIAL. Growth is real (+49%) but 12% ROE at PE 53 / P/B 5.6 means the market is paying tomorrow's circular-economy price for today's spread business. Weakest risk-reward of the four."
    }
   },
+  "listed_adjacent": {
+   "ECORECO.BO": {
+    "name": "Eco Recycling Limited (Ecoreco)",
+    "hq": "Mumbai",
+    "model": "E-waste: reverse logistics, dismantling, precious-metal recovery, IT asset disposition — asset-light services, not smelting",
+    "ttm_financials": {"market_cap_inr": 9596273664, "revenue_inr": 528100000, "revenue_growth_yoy": 1.14, "operating_margin": 0.63817, "net_margin": 0.4378, "roe": 0.22716, "trailing_pe": 41.97, "price_to_book": 8.93, "price_inr": 497.3},
+    "validation": "DIFFERENT MODEL, also works: 64% operating margins on tiny revenue (Rs.53 cr) — services/EPR-compliance economics, the mirror image of the smelters' 3-10% spread. Rich at P/B 8.9."
+   },
+   "CEREBRAINT.NS": {
+    "name": "Cerebra Integrated Technologies",
+    "hq": "Bengaluru",
+    "model": "E-waste recycling facility (90,000 t capacity claim)",
+    "ttm_financials": {"market_cap_inr": 359923840, "revenue_inr": 59542000, "revenue_growth_yoy": -0.547, "operating_margin": -29.15, "roe": -0.565, "price_to_book": 0.36, "price_inr": 2.97},
+    "validation": "CAUTIONARY TALE: revenue collapsed (-55%), deeply loss-making, sub-Rs.3 share price. Capacity claims without feedstock access produce exactly this — reinforces that collection, not capacity, is the moat."
+   },
+   "GANECOS.NS": {
+    "name": "Ganesha Ecosphere",
+    "hq": "Kanpur",
+    "model": "PET bottle recycling into fibre/yarn (non-metal, included for sector context)",
+    "ttm_financials": {"market_cap_inr": 30953818112, "revenue_inr": 14816628736, "revenue_growth_yoy": 0.231, "operating_margin": 0.08301, "roe": 0.0315, "trailing_pe": 80.1, "price_to_book": 2.42, "price_inr": 1156.6},
+    "validation": "Sector context only: same spread-business shape (8% margins), currently weak ROE (3%) at PE 80 — the circular-economy label alone doesn't guarantee returns."
+   }
+  },
   "unlisted": {
    "CMR Green Technologies": {"hq": "Haryana", "model": "India's largest metal recycler — aluminium & zinc die-casting alloys for auto OEMs; feedstock is substantially the $4.55bn/yr imported aluminium scrap line (HS 7602)", "validation": "Model validated by the import data (secondary aluminium demand is real and growing), but scale depends on imported scrap access — domestic ELV collection under NCMM is its structural unlock. Filed for IPO in 2022, withdrew; financials not publicly verifiable here."},
-   "Jain Metal Group": {"hq": "Tamil Nadu", "model": "Non-ferrous recycling — copper, lead, aluminium scrap to high-purity ingots/granules", "validation": "Copper leg sits on the strongest structural deficit in our data: refined copper imports $2.77bn and chapter-74 imports compounding at ~13%/yr since FY2018-19. Unlisted; financials not publicly verifiable here."},
-   "Ardee Industries": {"hq": "Andhra Pradesh", "model": "Heavy-duty lead recycling, LME-registered brand", "validation": "Same validated lead-loop economics as the listed trio; LME brand approval supports the export leg that made India a net lead exporter. Unlisted; financials not publicly verifiable here."}
+   "Ardee Industries": {"hq": "Andhra Pradesh", "model": "Heavy-duty lead recycling, LME-registered brand", "validation": "Same validated lead-loop economics as the listed cohort; LME brand approval supports the export leg that made India a net lead exporter. Unlisted; financials not publicly verifiable here."},
+   "MTC Group": {"hq": "Mumbai", "model": "India's largest ferrous + non-ferrous scrap procurement/processing; demolition-to-scrap integration", "validation": "Owns the upstream (feedstock origination) that smelters lack — structurally the strongest position in the chain if the thesis is right."},
+   "Tata Steel Recycling": {"hq": "Rohtak, Haryana", "model": "0.5 MTPA steel scrap recycling plant; branded ferrous scrap (FerroBaled/FerroShred)", "validation": "Big-steel entering formal scrap — corporatization of the ferrous loop, aligned with the FY25/FY26 decline in steel imports."},
+   "Ratan Aluminium Recycling": {"hq": "NCR", "model": "Secondary aluminium/zinc alloy ingots (~500 t/day Al)", "validation": "Same CMR model at smaller scale; feedstock is the imported-scrap line."},
+   "battery_and_ewaste_private_layer": {
+    "Lohum Cleantech": "Greater Noida; ~70% Indian Li-ion recycling share, ~20,000 TPA scaling to 50,000; ~Rs.835 cr revenue (FY25); $127M raised. The presumptive lead-loop successor for lithium.",
+    "Attero Recycling": "Noida; largest e-waste player, 98% recovery/22+ elements claim; Rs.8,300 cr expansion plan toward 300,000 MT Li-ion; NISE tie-up on solar-panel recycling — first mover on the PV waste stream.",
+    "BatX Energies": "Sikandrabad; patented zero-waste process, black mass to battery-grade lithium carbonate/Ni/Co; Rs.105 cr raised.",
+    "Metastable Materials": "Bengaluru; chemical-free Li-ion 'urban mining' refinery — Li/Co/Ni/Cu/Al as commodity metals.",
+    "RecycleKaro": "Palghar, Maharashtra; 17-acre Li-ion facility, >90% critical-element recovery claim; also solar modules.",
+    "E-Parisaraa": "Bengaluru; India's first authorized e-waste recycler (2005)."
+   }
   }
  },
  "sector_findings": [
