@@ -1,0 +1,66 @@
+{
+ "purpose": "Business-model validation of India's major metal-recycling companies against this repo's own trade data (metals_hsn4 4-digit import detail) and the CEEW solar-module-recycling economics. Tests one thesis: recycling businesses are viable exactly where reverse logistics already exist (lead/batteries), and the growth runway is the $8bn/yr of scrap India currently IMPORTS as feedstock.",
+ "sources": {
+  "trade_data": "data/metals_hsn4_import_2024-25_to_2025-26.json (TRADESTAT/DGCI&S, retrieved 2026-08-03)",
+  "company_financials": "yfinance .info TTM snapshots, retrieved 2026-08-03 (listed companies only)",
+  "pv_recycling_economics": "CEEW, 'How Much Does it Cost to Recycle a Solar Module in India?' (Kale & Tyagi, Nov 2025) + EU-India Technical Cooperation PV Waste/EPR report",
+  "policy": "DST Call for Proposals on Recovery & Recycling of End-of-Life Solar PV Panels/Modules; Ministry of Mines Rs.1,500 crore recycling incentive scheme under National Critical Mineral Mission (NCMM)"
+ },
+ "retrieved": "2026-08-03",
+ "thesis_anchors_from_trade_data_usd_million_fy2025_26": {
+  "copper_scrap_imports_7404": 3429.19,
+  "aluminium_scrap_imports_7602": 4551.38,
+  "total_imported_recycling_feedstock": 7980.57,
+  "lead_unwrought_imports_7801": 747.14,
+  "lead_ch78_exports": 1269.0,
+  "lead_ch78_imports": 1171.0,
+  "lead_net_position": "net EXPORTER (+98) — the only base metal where India's circular loop has closed, via battery recycling",
+  "refined_copper_imports_7403": 2768.1,
+  "silver_imports_7106": 12050.81,
+  "copper_ch74_imports_8yr_cagr_pct": 13.5
+ },
+ "companies": {
+  "listed": {
+   "GRAVITA.NS": {
+    "name": "Gravita India Limited",
+    "hq": "Rajasthan",
+    "model": "Lead (primary), aluminium and plastic recycling; multinational smelting footprint (India + Africa + Central America); sells recycled ingots/alloys to battery and auto OEMs",
+    "ttm_financials": {"market_cap_inr": 121193340928, "revenue_inr": 47003901952, "revenue_growth_yoy": 0.418, "operating_margin": 0.09678, "net_margin": 0.08338, "trailing_pe": 30.91, "price_to_book": 4.94, "debt_to_equity_pct": 29.9, "price_inr": 1663.9},
+    "validation": "CONFIRMED at scale. Highest operating margin of the cohort (9.7%) and 42% revenue growth. Lead-centric model sits exactly on the one metal our trade data shows India net-exports — mature battery reverse-logistics is the moat, overseas plants add feedstock access India lacks."
+   },
+   "POCL.NS": {
+    "name": "Pondy Oxides And Chemicals Limited",
+    "hq": "Tamil Nadu",
+    "model": "Secondary lead smelting (battery scrap to refined lead/alloys), expanding into copper and plastics",
+    "ttm_financials": {"market_cap_inr": 41987334144, "revenue_inr": 29583611904, "revenue_growth_yoy": 0.786, "operating_margin": 0.05661, "net_margin": 0.04458, "roe": 0.191, "trailing_pe": 31.29, "price_to_book": 5.33, "debt_to_equity_pct": 19.3, "price_inr": 550.45},
+    "validation": "CONFIRMED, fastest grower (+79% YoY). Thin 5.7% operating margin but 19% ROE — classic spread business earning returns on asset turnover, not markup. Copper diversification targets the $3.4bn imported-copper-scrap line."
+   },
+   "NILE.NS": {
+    "name": "Nile Limited",
+    "hq": "Telangana/Andhra Pradesh",
+    "model": "Secondary lead smelting; announced lithium-ion battery recycling subsidiary (NCMM-aligned)",
+    "ttm_financials": {"revenue_inr": 10405138432, "revenue_growth_yoy": 0.209, "operating_margin": 0.06608, "net_margin": 0.05311, "roe": 0.19, "price_to_book": 1.86, "debt_to_equity_pct": 3.8, "price_inr": 1958.2},
+    "validation": "CONFIRMED, most conservative balance sheet (D/E 3.8%, P/B 1.9 — cheapest of the cohort). Same lead-loop economics; LiB recycling is the NCMM option ticket."
+   },
+   "NRL.NS": {
+    "name": "Nupur Recyclers Limited",
+    "hq": "Delhi NCR",
+    "model": "Non-ferrous scrap processing (aluminium/copper), smaller scale",
+    "ttm_financials": {"market_cap_inr": 7509180928, "revenue_inr": 2167568896, "revenue_growth_yoy": 0.488, "operating_margin": 0.04999, "net_margin": 0.06559, "roe": 0.121, "trailing_pe": 52.78, "price_to_book": 5.62, "price_inr": 108.72},
+    "validation": "PARTIAL. Growth is real (+49%) but 12% ROE at PE 53 / P/B 5.6 means the market is paying tomorrow's circular-economy price for today's spread business. Weakest risk-reward of the four."
+   }
+  },
+  "unlisted": {
+   "CMR Green Technologies": {"hq": "Haryana", "model": "India's largest metal recycler — aluminium & zinc die-casting alloys for auto OEMs; feedstock is substantially the $4.55bn/yr imported aluminium scrap line (HS 7602)", "validation": "Model validated by the import data (secondary aluminium demand is real and growing), but scale depends on imported scrap access — domestic ELV collection under NCMM is its structural unlock. Filed for IPO in 2022, withdrew; financials not publicly verifiable here."},
+   "Jain Metal Group": {"hq": "Tamil Nadu", "model": "Non-ferrous recycling — copper, lead, aluminium scrap to high-purity ingots/granules", "validation": "Copper leg sits on the strongest structural deficit in our data: refined copper imports $2.77bn and chapter-74 imports compounding at ~13%/yr since FY2018-19. Unlisted; financials not publicly verifiable here."},
+   "Ardee Industries": {"hq": "Andhra Pradesh", "model": "Heavy-duty lead recycling, LME-registered brand", "validation": "Same validated lead-loop economics as the listed trio; LME brand approval supports the export leg that made India a net lead exporter. Unlisted; financials not publicly verifiable here."}
+  }
+ },
+ "sector_findings": [
+  "The viable Indian recycling business today is a SPREAD business: 5-10% operating margins, returns earned via asset turnover (ROE ~12-19%), feedstock procurement is the dominant cost — the same 56-68% procurement-cost structure CEEW found makes solar recycling unviable at current module prices.",
+  "Every profitable listed recycler is lead-first. That is not a coincidence: lead-acid batteries are the only waste stream in India with mature, price-discovered reverse logistics — and chapter 78 is the only metal chapter where our trade data shows exports exceeding imports.",
+  "India imports its recycling feedstock: $8.0bn/yr of copper+aluminium scrap (HS 7404+7602). Domestic EoL collection (EPR, NCMM's Rs.1,500cr scheme, ELV rules) substitutes those imports directly — this is the recyclers' growth runway, not new smelting technology.",
+  "Solar PV recycling is the 2035+ opportunity, not a current business: CEEW shows losses of Rs.10,230-12,341/tonne today, flipping positive only with EPR certificate trading for Cu/Ag/Si (+Rs.24,659/t swing) or high-silver TOPCon waste (+Rs.1,125/t) arriving post-2028.",
+  "Valuation caveat: the market has already priced the circular-economy tailwind (PE 31-53, P/B 5+ except Nile at 1.9). The business models are validated; the entry prices are not cheap."
+ ]
+}
