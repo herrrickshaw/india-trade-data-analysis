@@ -1,0 +1,636 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_india_trade_amp_macro_data_analysis",
+      "label": "India Trade &amp; Macro Data Analysis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_what_mospi_provides",
+      "label": "What MoSPI provides",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_access_workflow",
+      "label": "Access workflow",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_session_findings_as_of_2026_07_18",
+      "label": "Session findings (as of 2026-07-18)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_state_wise_cpi_vs_national_wpi_trends",
+      "label": "State-wise CPI vs. national WPI trends",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_cpi_inflation_heatmap_choropleth",
+      "label": "CPI inflation heatmap (choropleth)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L88",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_rbi_foreign_exchange_reserves_currency_trend",
+      "label": "RBI foreign exchange reserves + currency trend",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_effective_buying_power_the_china_currency_manipulation_comparison",
+      "label": "Effective buying power & the China currency-manipulation comparison",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_trade_balance_is_india_an_export_surplus_country",
+      "label": "Trade balance — is India an export-surplus country?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_hsn_wise_historical_trends_which_imports_are_growing_fastest",
+      "label": "HSN-wise historical trends — which imports are growing fastest?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L130",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_bare_metal_imports_at_4_digit_hs_splitting_bullion_out_of_chapter_71",
+      "label": "Bare-metal imports at 4-digit HS — splitting bullion out of chapter 71",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_imported_fertiliser_fuel_prices_diesel_cpi_wpi",
+      "label": "Imported fertiliser & fuel prices → diesel → CPI/WPI",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_gdp_growth_trend_with_revision_history",
+      "label": "GDP growth trend, with revision history",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L158",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_five_year_synthesis_trade_currency_amp_policy_fy2021_22_to_fy2025_26",
+      "label": "Five-year synthesis: trade, currency &amp; policy, FY2021-22 to FY2025-26",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L168",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_known_quirks_caveats",
+      "label": "Known quirks / caveats",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L178",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_companion_repo",
+      "label": "Companion repo",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L188",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis",
+      "label": "five_year_trade_currency_synthesis.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_five_years_one_line_imports_grew_nearly_six_times_faster_than_exports_and_a_services_surplus_not_policy_absorbed_most_of_the_gap",
+      "label": "Five years, one line: imports grew nearly six times faster than exports — and a services surplus, not policy, absorbed most of the gap",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_26_6",
+      "label": "**`+26.6%`**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_4_7",
+      "label": "**`+4.7%`**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_13_7",
+      "label": "**`+13.7%`**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_75_6",
+      "label": "**`+75.6%`**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L35",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_exports_vs_imports_vs_the_rupee_indexed_to_fy2021_22_100",
+      "label": "**Exports vs. imports vs. the rupee, indexed to FY2021-22 = 100**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L41",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_gdp_growth_latest_estimate",
+      "label": "**GDP growth, latest estimate**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L74",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_forex_reserves_start_of_each_fy",
+      "label": "**Forex reserves, start of each FY**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L76",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "label": "**The PLI policy clock, compressed to ve years**",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L92",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_pli_auto_auto_components_approved",
+      "label": "PLI Auto & Auto Components approved",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L102",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_pli_textiles_mmf_notified",
+      "label": "PLI Textiles (MMF) notified",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L110",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_pli_white_goods_completes_all_4_selection_rounds",
+      "label": "PLI White Goods completes all 4 selection rounds",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L118",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_nmeo_oilseeds_mission_launched",
+      "label": "NMEO-Oilseeds mission launched",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L134",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_pli_specialty_steel_round_1_2_launched",
+      "label": "PLI Specialty Steel round 1.2 launched",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L142",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_specialty_steel_1_2_mous_signed",
+      "label": "Specialty Steel 1.2 MoUs signed",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L150",
+      "_origin": "ast"
+    },
+    {
+      "id": "charts_five_year_trade_currency_synthesis_pli_auto_budget_allocation_nearly_triples",
+      "label": "PLI Auto budget allocation nearly triples",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L158",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "readme",
+      "target": "readme_india_trade_amp_macro_data_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_what_mospi_provides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_access_workflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_session_findings_as_of_2026_07_18",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_state_wise_cpi_vs_national_wpi_trends",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_cpi_inflation_heatmap_choropleth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_rbi_foreign_exchange_reserves_currency_trend",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_effective_buying_power_the_china_currency_manipulation_comparison",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_trade_balance_is_india_an_export_surplus_country",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_hsn_wise_historical_trends_which_imports_are_growing_fastest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_bare_metal_imports_at_4_digit_hs_splitting_bullion_out_of_chapter_71",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_imported_fertiliser_fuel_prices_diesel_cpi_wpi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_gdp_growth_trend_with_revision_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_five_year_synthesis_trade_currency_amp_policy_fy2021_22_to_fy2025_26",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L168",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_known_quirks_caveats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_india_trade_amp_macro_data_analysis",
+      "target": "readme_companion_repo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis",
+      "target": "charts_five_year_trade_currency_synthesis_five_years_one_line_imports_grew_nearly_six_times_faster_than_exports_and_a_services_surplus_not_policy_absorbed_most_of_the_gap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis",
+      "target": "charts_five_year_trade_currency_synthesis_26_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis",
+      "target": "charts_five_year_trade_currency_synthesis_4_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis",
+      "target": "charts_five_year_trade_currency_synthesis_13_7",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis",
+      "target": "charts_five_year_trade_currency_synthesis_75_6",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_75_6",
+      "target": "charts_five_year_trade_currency_synthesis_exports_vs_imports_vs_the_rupee_indexed_to_fy2021_22_100",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_exports_vs_imports_vs_the_rupee_indexed_to_fy2021_22_100",
+      "target": "charts_five_year_trade_currency_synthesis_gdp_growth_latest_estimate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_exports_vs_imports_vs_the_rupee_indexed_to_fy2021_22_100",
+      "target": "charts_five_year_trade_currency_synthesis_forex_reserves_start_of_each_fy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_75_6",
+      "target": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_pli_auto_auto_components_approved",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_pli_textiles_mmf_notified",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_pli_white_goods_completes_all_4_selection_rounds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_nmeo_oilseeds_mission_launched",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_pli_specialty_steel_round_1_2_launched",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_specialty_steel_1_2_mous_signed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "charts_five_year_trade_currency_synthesis_the_pli_policy_clock_compressed_to_ve_years",
+      "target": "charts_five_year_trade_currency_synthesis_pli_auto_budget_allocation_nearly_triples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "charts/five_year_trade_currency_synthesis.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}

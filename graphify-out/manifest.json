@@ -1,0 +1,188 @@
+{
+  "data/cpi_statewise_trend_2025-01_to_2026-06.json": {
+    "mtime": 1784395775.4360857,
+    "seen": 1789193307.442723,
+    "ast_hash": "dbe69352b444b14a1786a709fa108e8f",
+    "semantic_hash": ""
+  },
+  "data/fertiliser_fuel_price_transmission_2012_to_2026.json": {
+    "mtime": 1784395775.4422357,
+    "seen": 1789193307.442726,
+    "ast_hash": "e25c01fd9b85a74f76b186b8de27bef5",
+    "semantic_hash": ""
+  },
+  "data/five_year_trade_currency_synthesis_2026-07-18.json": {
+    "mtime": 1784395775.4433038,
+    "seen": 1789193307.4427269,
+    "ast_hash": "85b4f6690286e0907971337ebc8becd0",
+    "semantic_hash": ""
+  },
+  "data/fy2025_26_sample_report_2026-07-18.json": {
+    "mtime": 1784395775.4438117,
+    "seen": 1789193307.442728,
+    "ast_hash": "7f9610da65cafc8989fb6a0283b03d9c",
+    "semantic_hash": ""
+  },
+  "data/gdp_growth_rate_2012-13_to_2025-26.json": {
+    "mtime": 1784395775.442755,
+    "seen": 1789193307.442729,
+    "ast_hash": "47572869329573f78f489a4de446b42d",
+    "semantic_hash": ""
+  },
+  "data/hsn_historical_trends_2018-19_to_2025-26.json": {
+    "mtime": 1784395775.4407034,
+    "seen": 1789193307.44273,
+    "ast_hash": "725c6e2ce23dbc128a8b07da40b7bc07",
+    "semantic_hash": ""
+  },
+  "data/metal_recyclers_business_model_validation.json": {
+    "mtime": 1785756139.3475947,
+    "seen": 1789193307.44273,
+    "ast_hash": "626497316c49cc8dc873145a92c6a49c",
+    "semantic_hash": ""
+  },
+  "data/metals_hsn4_import_2024-25_to_2025-26.json": {
+    "mtime": 1785755263.45367,
+    "seen": 1789193307.442731,
+    "ast_hash": "f5dfc48477d2bbdf8fef6fe151cb82b1",
+    "semantic_hash": ""
+  },
+  "data/mospi_snapshot_2026-07-18.json": {
+    "mtime": 1784395775.4356508,
+    "seen": 1789193307.442732,
+    "ast_hash": "9650f1e28fe4296628f0daa14969f75b",
+    "semantic_hash": ""
+  },
+  "data/rbi_forex_reserves_2015-01_to_2025-06.json": {
+    "mtime": 1784395775.4372826,
+    "seen": 1789193307.442733,
+    "ast_hash": "9063295903ca14fb042204a41d44a211",
+    "semantic_hash": ""
+  },
+  "data/rbi_usd_inr_exchange_rate_2015-01_to_2026-07.json": {
+    "mtime": 1784395775.4379299,
+    "seen": 1789193307.442733,
+    "ast_hash": "0f745dd51ccefb8212cab54d7938075d",
+    "semantic_hash": ""
+  },
+  "data/rupee_real_exchange_rate_2015_to_2026.json": {
+    "mtime": 1784395775.4384766,
+    "seen": 1789193307.442734,
+    "ast_hash": "a2be3cf9ff0111399500c64c3cb9470c",
+    "semantic_hash": ""
+  },
+  "data/services_trade_and_overall_balance_2015-16_to_2024-25.json": {
+    "mtime": 1784395775.4411902,
+    "seen": 1789193307.4427352,
+    "ast_hash": "e4a151a28f2c51e675d8fafba24f3b9d",
+    "semantic_hash": ""
+  },
+  "data/trade_data_cross_validation_2026-07-18.json": {
+    "mtime": 1784395775.4416976,
+    "seen": 1789193307.4427352,
+    "ast_hash": "f0e175f32bff7fc3079fdafd57b929fb",
+    "semantic_hash": ""
+  },
+  "data/tradestat_hsn_export_import_2018-19_to_2025-26.json": {
+    "mtime": 1784395775.4400256,
+    "seen": 1789193307.4427361,
+    "ast_hash": "b548ecc8e9b03debbc872a0ba141709e",
+    "semantic_hash": ""
+  },
+  "data/wpi_national_trend_2025-01_to_2026-04.json": {
+    "mtime": 1784395775.43648,
+    "seen": 1789193307.4427369,
+    "ast_hash": "9ea93575893e710cac7ea3180433149f",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1789399845.801285,
+    "seen": 1789968733.33657,
+    "ast_hash": "43be0c017615920cd3632f5423fccda6",
+    "semantic_hash": ""
+  },
+  "charts/cpi_india_heatmap.html": {
+    "mtime": 1784395775.4292445,
+    "seen": 1789193307.4427378,
+    "ast_hash": "ebc5a9dfb9b91b938610c5f090b0fa98",
+    "semantic_hash": ""
+  },
+  "charts/cpi_wpi_state_trends.html": {
+    "mtime": 1784395775.4283931,
+    "seen": 1789193307.442739,
+    "ast_hash": "5b38332542ff7459afa5b9702075de65",
+    "semantic_hash": ""
+  },
+  "charts/fertiliser_fuel_price_transmission.html": {
+    "mtime": 1784395775.4318814,
+    "seen": 1789193307.442739,
+    "ast_hash": "f7ab17c5e305774b9898aa875f8a739a",
+    "semantic_hash": ""
+  },
+  "charts/five_year_trade_currency_synthesis.html": {
+    "mtime": 1784395784.6059387,
+    "seen": 1789193307.44274,
+    "ast_hash": "61026b8959faeb01af93cad722b9ab0e",
+    "semantic_hash": ""
+  },
+  "charts/gdp_growth_trend.html": {
+    "mtime": 1784395775.4325438,
+    "seen": 1789193307.442741,
+    "ast_hash": "4540025e00dad6aaa3dc0ad8bfd607ab",
+    "semantic_hash": ""
+  },
+  "charts/hsn_historical_trends.html": {
+    "mtime": 1784395775.4314501,
+    "seen": 1789193307.442742,
+    "ast_hash": "fd8a318f704605396ca5a9ad46b20e14",
+    "semantic_hash": ""
+  },
+  "charts/rbi_forex_reserves_trend.html": {
+    "mtime": 1784395775.429879,
+    "seen": 1789193307.442743,
+    "ast_hash": "3dc5fd6e27befa9fed8dde4f1bb8c45f",
+    "semantic_hash": ""
+  },
+  "charts/real_exchange_rate_and_currency_policy.html": {
+    "mtime": 1784395775.4303691,
+    "seen": 1789193307.442743,
+    "ast_hash": "25ae49d78229f42ce7a6189744138976",
+    "semantic_hash": ""
+  },
+  "charts/trade_balance_hsn_analysis.html": {
+    "mtime": 1784395775.430989,
+    "seen": 1789193307.442744,
+    "ast_hash": "8aabce02dcd7cc632ffe164f3bedb56c",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1784397611.0166535,
+    "seen": 1789193307.442745,
+    "ast_hash": "b8b8c0056ecf9a0eb08bf9b0689b628e",
+    "semantic_hash": ""
+  },
+  "reports/FY2025-26_sample_report.html": {
+    "mtime": 1784395775.446593,
+    "seen": 1789193307.442745,
+    "ast_hash": "5bd6be25bd6aa1cde6ece96aee7cf624",
+    "semantic_hash": ""
+  },
+  "reports/blog_metal_recycling_import_bill.html": {
+    "mtime": 1785756095.590987,
+    "seen": 1789193307.4427462,
+    "ast_hash": "609efcd5df6d9803cbb9108faf7aaffc",
+    "semantic_hash": ""
+  },
+  ".github/workflows/quality-gates.yml": {
+    "mtime": 1789577642.341331,
+    "seen": 1789968733.336567,
+    "ast_hash": "510f7e392c07f0574ba8a559ba2cdf12",
+    "semantic_hash": ""
+  },
+  "charts/five_year_trade_currency_synthesis.md": {
+    "mtime": 1789389425.7178156,
+    "seen": 1789968733.336583,
+    "ast_hash": "e25597fe9431867077f999addf77830f",
+    "semantic_hash": ""
+  }
+}
