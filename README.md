@@ -1,5 +1,9 @@
 # India Trade &amp; Macro Data Analysis
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 A record of accessing India's official statistics via the **MoSPI (Ministry of Statistics and Programme Implementation)** data API/connector, plus TRADESTAT, RBI, and DGCI&amp;S sources — covering domestic macro indicators (CPI/WPI/GDP), currency &amp; reserves, and the descriptive trade-balance/HSN-chapter analysis. Snapshot of the latest published figures pulled on 2026-07-18.
 
 **This is the descriptive half of a two-repo split.** The prescriptive companion — sector-by-sector and country-by-country recommendations, PLI scheme coverage checks, and policy-gap analysis — lives in [`india-trade-sector-policy-recommendations`](https://github.com/herrrickshaw/india-trade-sector-policy-recommendations). Both repos were originally one (`mospi-dataset-analysis`); they were split so the "what does the data show" analysis and the "what should be done about it" recommendations could be published, versioned, and read independently.
